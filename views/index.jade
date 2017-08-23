@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Select option:
+  p
+    a(href='users') All users
+    |  - View all users
+  p
+    a(href='users/add') Add user
+    |  - Add user
+  p
+    a(href='users/search') Search for an user
+    |  - Search user
+  p
+    a(href='cars') All cars
+    |  - View all cars
+  p
+    a(href='cars/add') Add car
+    |  - Add car
+  p
+    a(href='cars/search') Search for a car
+    |  - Search car
